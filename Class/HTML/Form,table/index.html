@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form actin="./backend.php" target="_blank" autocomplete>
+        <label for="fname"> Enter the First Name </label> &nbsp
+        <input type="text" name="fname" id="fname" required><br>
+        <label for="lname"> Enter The Last Name</label>&nbsp
+        <input type="text" name="lname" id="lname" required>
+        <br>
+        Select Gender:
+        <label>Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label>Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label>Others</label>
+        <input type="radio" name="gender" id="others" value="others">
+        <hr>
+        <label for="pass">Enter Your Password</label>
+        <input type="password" name="password" id="pass" required>
+        <br>
+        <label for="brith">Enter Your Birth Date</label>
+        <input type="date" name="birth" id="birth">
+        <input type="datetime-local" name="time" id=""><br>
+        Enter Programming languages u like:
+        <label for="Java">Java</label>
+        <input type="checkbox" name="Program" id="java" value="Java">
+        <label for="C++">C++</label>
+        <input type="checkbox" name="Program" id="C++" value="C++">
+        <label for="C#">C#</label>
+        <input type="checkbox" name="Program" id="C#" value="C#">
+        <label for="Python">Python</label>
+        <input type="checkbox" name="Program" id="Python" value="Python">
+        <label for="C">C</label>
+        <input type="checkbox" name="Program" id="c" value="C"><br>
+        <label for="age">Enter Your Age:</label>
+        <input type="number" name="age" id="age" max="150"><br>
+        <label for="Prog">Select Primary programme</label>
+        <select name="Prog" id="Prog" multiple>
+            <option value="java">Java</option>
+            <option value="c++">C++</option>
+            <option value="c#">C#</option>
+            <option value="python">Python</option>
+        </select><br>
+        <label for="text">About Yourself</label>
+        <textarea name="textarea" id="text" cols="30" rows="10"></textarea>
+        <br>
+        <label for="phone">Enter Your Contact Nmber</label>
+        <input type="tel" name="phone" id="phone" required pattern="[0-9]{1}" maxlength="10">
+        <br>
+        <label for="email">Enter Your Email</label>
+        <input type="email" name="email" id="email"><br>
+        <hr>
+        <input type="reset" value="Reset Your Form"><br>
+        <input type="submit" value="Submit your Form">
+    </form>
+</body>
+</html>
